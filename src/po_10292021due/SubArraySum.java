@@ -29,10 +29,10 @@ public class SubArraySum {
 				continue;
 			} else {
 				added += arr[i];
-				System.out.println(arr[i]);
+				// System.out.println(arr[i]);
 				for (int j = i + 1; j < arr.length; j++) {
 					added += arr[j];
-					System.out.println(added);
+					// System.out.println(added);
 					if (added.equals(sum)) {
 						first_index = i;
 						last_index = j;
